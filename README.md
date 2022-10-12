@@ -19,7 +19,7 @@ Abaixo estão listadas as regras de negócio para concessão de empréstimo com 
 
 - \* Clientes com menos de 30 anos.
 - \*\* Clientes residentes em SP (código do estado de São Paulo no Brasil)
-- \*\*\* Clientes com menos de 30 anos. residindo em SP
+- \*\*\* Clientes com menos de 30 anos. Residindo em SP
 
 ### Uso do aplicativo:
 
@@ -37,7 +37,7 @@ A aplicação deve receber os seguintes dados como entrada:
 }
 ```
 
-Para simplificar, considere que sempre receberemos os dados corretos (tipos e formatos)_
+Para simplificar, considere que sempre receberemos os dados corretos (tipos e formatos).
 E deve responder os seguintes dados:
 
 ##### saida
