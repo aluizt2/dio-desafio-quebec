@@ -57,3 +57,9 @@ E deve responder os seguintes dados:
     ]
 }
 ```
+
+- [x] Utilizado Facade.
+- [x] Utilizado Strategy.
+- [x] Swagger através de annotations.
+
+![image](https://user-images.githubusercontent.com/115638943/195381094-1e8e6fd0-6e6b-41e3-81f5-2c759cf1e563.png)
