@@ -29,13 +29,11 @@ A aplicação deve receber os seguintes dados como entrada:
 
 ```json
 {
-  "customer": {
-    "name": "Erikaya",
-    "cpf": "123.456.789-10",
-    "age": 29,
-    "location": "SP",
-    "income": 3000
-  }
+  "cpf": "27053069001",
+  "idade": 47,
+  "localizacao": "SP",
+  "nome": "Alexandre Tavares",
+  "salario": 100000
 }
 ```
 
@@ -46,12 +44,16 @@ E deve responder os seguintes dados:
 
 ```json
 {
-  "customer": "Erikaya",
-  "loans": [
-    {
-      "type": "personal",
-      "taxes": 1
-    }
-  ]
+    "nome": "Alexandre Tavares",
+    "emprestimos": [
+        {
+            "tipo": "PESSOAL",
+            "taxa": 4
+        },
+        {
+            "tipo": "CONSIGNADO",
+            "taxa": 2
+        }
+    ]
 }
 ```
