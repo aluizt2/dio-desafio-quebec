@@ -13,19 +13,19 @@ Abaixo estão listadas as regras de negócio para concessão de empréstimo com 
 
 |                          | Empréstimo Pessoal  | Empréstimo com Garantia | Folha de pagamento |
 | ------------------------ | ------------- | :-----------------: | ------- |
-| Renda <= 3000           | SIM           |       Yes\*\*\*     | No      |
-| Renda > 3000 & < 5000   | SIM           |        Yes\*\*      | No      |
-| Renda => 5000           | SIM           |         Yes\*       | Yes     |
+| Renda <= 3000           | SIM           |       SIM\*\*\*     | NÃO      |
+| Renda > 3000 & < 5000   | SIM           |        SIM\*\*      | NÃO      |
+| Renda => 5000           | SIM           |         SIM\*       | SIM     |
 
-- \* Clients under 30 y.o.
-- \*\* Clients residing in SP (São Paulo state code in Brazil)
-- \*\*\* Clients under 30 y.o. residing in SP
+- \* Clientes com menos de 30 anos.
+- \*\* Clientes residentes em SP (código do estado de São Paulo no Brasil)
+- \*\*\* Clientes com menos de 30 anos. residindo em SP
 
-### App usage:
+### Uso do aplicativo:
 
-The application must receive the following data as input:
+A aplicação deve receber os seguintes dados como entrada:
 
-##### input
+##### Entrada
 
 ```json
 {
@@ -39,11 +39,10 @@ The application must receive the following data as input:
 }
 ```
 
-_For the sake of simplicity, consider we'll always receive the correct data (types and formats)_
+Para simplificar, considere que sempre receberemos os dados corretos (tipos e formatos)_
+E deve responder os seguintes dados:
 
-And must respond the following data:
-
-##### output
+##### saida
 
 ```json
 {
